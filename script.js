@@ -1,5 +1,5 @@
 async function searchData() {
-  const querry = document.getElementById("searchInput").value.toLowerCase();
+  const query = document.getElementById("searchInput").value.toLowerCase();
   const response = await fetch("data.csv");
   const data = await response.text();
 
